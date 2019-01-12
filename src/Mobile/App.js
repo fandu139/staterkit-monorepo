@@ -24,7 +24,7 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>saya rubah instruksi ini dari wawan</Text>
         <Text style={styles.instructions}>{instructions}</Text>
 		<Button
-		  title="Learn More"
+		  title="Button"
 		  color="#841584"
 		/>
       </View>

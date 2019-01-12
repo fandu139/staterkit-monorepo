@@ -1,0 +1,23 @@
+{
+  "name": "staterkit-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiatma9024/staterkit-monorepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adiatma9024/staterkit-monorepo/issues"
+  },
+  "homepage": "https://github.com/adiatma9024/staterkit-monorepo#readme",
+  "devDependencies": {
+    "lerna": "^3.10.5"
+  }
+}

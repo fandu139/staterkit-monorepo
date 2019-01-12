@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 
 const instructions = Platform.select({
   ios: 'Welcome To React Native IOS Fandu',
@@ -23,6 +23,10 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Wawan</Text>
         <Text style={styles.instructions}>saya rubah instruksi ini dari wawan</Text>
         <Text style={styles.instructions}>{instructions}</Text>
+		<Button
+		  title="Button"
+		  color="#841584"
+		/>
       </View>
     );
   }

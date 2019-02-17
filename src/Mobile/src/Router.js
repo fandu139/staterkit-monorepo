@@ -12,14 +12,8 @@ import Menu from './modul/Menu';
 
 
 const Navigation = createStackNavigator({
-  Login: {screen: Login,
-    navigationOptions: {
-      header : null
-    }},
-  Menu: {screen: Menu,
-    navigationOptions: {
-    header : null
-  }},
+  Login: {screen: Login},
+  Menu: {screen: Menu},
 },{
   initialRouteName : 'Login',
 });

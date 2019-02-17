@@ -18,15 +18,9 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class Login extends Component<Props> {
-  static get options() {
-    return {
-      topBar: {
-        title: {
-          text: 'Login'
-        },
-      }
-    };
-  }
+  static navigationOptions = {
+    header : null
+  };
   render() {
     return (
       <View style={styles.container}>

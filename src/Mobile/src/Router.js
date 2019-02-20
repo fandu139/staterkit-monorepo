@@ -7,8 +7,8 @@ import {
 } from 'react-native';
 
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import Login from './modul/Login';
-import Menu from './modul/Menu';
+import Login from './screens/Login';
+import Menu from './screens/Menu';
 
 
 const Navigation = createStackNavigator({

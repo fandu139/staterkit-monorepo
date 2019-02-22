@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 import { StackActions, NavigationActions } from 'react-navigation';
@@ -26,9 +18,9 @@ export default class App1 extends Component<Props> {
       <View style={styles.container}>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
-		<Button
-		  title="Button"
-		/>
+    		<Button
+    		  title="Button"
+    		/>
       </View>
     );
   }

@@ -3,7 +3,7 @@ import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 import { StackActions, NavigationActions } from 'react-navigation';
 
 function Login (props) {
-  var navigate = props.navigation.replace;
+  var navigate = props.navigation.navigate;
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>Form Login</Text>
